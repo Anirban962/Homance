@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Default links -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!--Plugin Css-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
+  <link href="css/slick.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <link href="css/flickity.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- custom links -->
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <header class="hdr">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar">
+          <!--logo-->
+          <a class="navbar-brand respons_img" href="#">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+          <div class="navigation">
+            <button class="nav-button d-inline-block d-lg-none" onclick="openNav()">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn d-inline-block d-lg-none" onclick="closeNav()">&times;</a>
+              <ul class="navbar_nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">dossier</a>
+                </li>
+                <!--logo-->
+                <a class="navbar-brand_logo" href="#" id="m_logo">
+                  <img src="images/logo.png" alt="logo" />
+                </a>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">blog</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">quizzes</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      </nav>
+    </div>
+    </div>
+  </header>
+
+  <!--banner-->
+
+  <section class="banner">
+    <div class="row m-0">
+      <div class="banner_wrapper">
+        <h1>
+          Your <span> homantic</span> journey <br />
+          starts here.
+        </h1>
+        <p class="banner_subhdng">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit <br> amet orci eu mauris.
+        </p>
+        <div class="banner_btn">
+          <a href="#"> start your project </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--about us-->
+
+  <section class="abt">
+    <div class="abt_wrapper">
+      <h2>
+        <span> Remote Interior Design </span>
+
+        Services with a Personalized Approach
+      </h2>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        mattis gravida erat, <br />
+        adipiscing elit. Vestibulum mattis gravida.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5">
+        <!--first item-->
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body p-0">
+              <a href="#">
+                <img src="images/rtd_product_img.png" alt="" />
+              </a>
+
+              <h6 class="card-subtitle mb-3 mt-3">Product  Variety</h6>
+
+              <p class="card-text">
+                Our company offers products from large-scale name brand
+                companies such as Pottery Barn, Crate & Barrel, and Wayfair
+                while also supporting small businesses and local vendors.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--second item-->
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body p-0">
+              <a href="#">
+                <img src="images/rtd_2_img.png" alt="" />
+              </a>
+
+              <h6 class="card-subtitle mb-3 mt-3">Furniture discount</h6>
+
+              <p class="card-text">
+                One of the many perks of using our services is our access to
+                Trade Discounts which save you money on quality furniture
+                pieces from the 200+ vendors we work with.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--third item-->
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body p-0">
+              <a href="#">
+                <img src="images/rtd_img_3.png" alt="" />
+              </a>
+
+              <h6 class="card-subtitle mb-3 mt-3">
+                one-on-one communication
+              </h6>
+
+              <p class="card-text">
+                Unlike other companies who only let you indirectly reach your
+                designer via third party customer service, we allow you direct
+                access to the designer you are working with just as if you
+                were working together in person. As it should be!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--fourth item-->
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body p-0">
+              <a href="#">
+                <img src="images/rtd_img_4.png" alt="" />
+              </a>
+
+              <h6 class="card-subtitle mb-3 mt-3">
+                get matched with a designer
+              </h6>
+
+              <p class="card-text">
+                We know that one type of designer does not fit all. Using the
+                information and feedback you provide us with, we match you
+                with the perfect designer for your style and ideals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="abt_btn">
+        <a href="#"> start your project </a>
+      </div>
+    </div>
+  </section>
+
+  <!--help seciotn-->
+
+  <section class="help_sec">
+    <div class="help_sec_wrapper">
+      <h3>
+        <span>How Can</span>
+        We Help You?
+      </h3>
+
+      <div class="container help_sec_wrap">
+        <div class="row mt-5">
+          <div class="col-md-4 col-sm-6">
+            <div class="card">
+              <img src="images/help_grid_img1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card_sub_heading">customized shopping list</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum ipsam iusto doloremque officia molestiae
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mt-3">
+            <div class="card">
+              <img src="images/help_sec_grid_img2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card_sub_heading">conceptual only</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum ipsam iusto doloremque officia molestiae
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mt-3">
+            <div class="card">
+              <img src="images/help_sec_grid_img3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card_sub_heading">VIP client experience</h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum ipsam iusto doloremque officia molestiae
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--help_sec_btn-->
+        <div class="help_sec_btn">
+          <a href="#"> plus many more! </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--brands sec-->
+
+  <section class="brand_sec">
+    <div class="brand_sec_txt_wrapper">
+      <h3>our brands</h3>
+
+      <p class="brand_sec_sub_txt">
+        We work with
+        <span> 200+ small business and mainstream vendors </span>
+        in order to find pieces that <br />
+        match both your unique style and budget.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row d-block mx-auto">
+        <div class="carousel brand_sec_carousel mt-5" data-flickity='{ "pageDots": false }'>
+          <div class="carousel-cell">
+            <img src="images/brand_slider_img.jpg" alt="" />
+          </div>
+          <div class="carousel-cell">
+            <img src="images/brand_slider_img.jpg" alt="" />
+          </div>
+          <div class="carousel-cell">
+            <img src="images/brand_slider_img.jpg" alt="" />
+          </div>
+          <div class="carousel-cell">
+            <img src="images/brand_slider_img.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--client say sec-->
+
+  <section class="client_sec">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="client_sec_txt_wrapper">
+          <h3>what our</h3>
+          <p class="client_sec_subtxt">clients are saying</p>
+          <div class="client_sec_subtxt_line"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--slider-->
+    <div class="container client_slider_wrapper">
+      <div class="slider variable-width client_slider d-block mx-auto">
+        <!--first slider-->
+        <div class="client_slider_one">
+          <div class="client_card">
+            <div class="client_items">
+              <img src="images/client_slider_bg.jpg" class="card-img" alt="..." />
+            </div>
+
+            <div class="yvid_ico">
+              <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+                <img src="images/Yvid_ico.png" alt="">
+              </a>
+            </div>
+
+
+            <p class="client_card_text">
+              <img src="images/inv_comma.png" alt="" class="comma_img" />
+
+              I'm so glad I partnered with homance; their highly <br />
+              skilled and professional team drove significant results for us!
+              <span>mellisa doe</span>
+            </p>
+          </div>
+        </div>
+
+        <!--second slider-->
+        <div class="client_slider_one">
+          <div class="client_card">
+            <div class="client_items">
+              <img src="images/blog_slider_img3.jpg" class="card-img" alt="..." />
+            </div>
+
+            <p class="client_card_text">
+              <img src="images/inv_comma.png" alt="" class="comma_img" />
+              I'm so glad I partnered with homance; their highly <br />
+              skilled and professional team drove significant results for us!
+              <span>mellisa doe</span>
+            </p>
+          </div>
+        </div>
+        <!--third slider-->
+        <div class="client_slider_one">
+          <div class="client_card">
+            <div class="client_items">
+              <img src="images/latest_blog_slide_img1.jpg" class="card-img" alt="..." />
+            </div>
+
+
+            <p class="client_card_text">
+              <img src="images/inv_comma.png" alt="" class="comma_img" />
+              I'm so glad I partnered with homance; their highly <br />
+              skilled and professional team drove significant results for us!
+              <span>mellisa doe</span>
+            </p>
+          </div>
+        </div>
+        <!--fourth slider-->
+        <div class="client_slider_one">
+          <div class="client_card">
+            <div class="client_items">
+              <img src="images/latest_blog_slide_img2.jpg" class="card-img" alt="..." />
+            </div>
+
+
+            <p class="client_card_text">
+              <img src="images/inv_comma.png" alt="" class="comma_img" />
+              I'm so glad I partnered with homance; their highly <br />
+              skilled and professional team drove significant results for us!
+              <span>mellisa doe</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--design sec-->
+
+  <section class="design_sec">
+    <div class="design_sec_wrapper">
+      <div class="design_txt">
+        <h3>
+          What's Your Design Style?
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+            Vestibulum mattis gravida erat, eu laoreet sem imperdiet et.
+            <br />
+            Praesent ornare vel turpis.
+          </p>
+        </h3>
+
+        <div class="design_sec_btn">
+          <a href="#"> take the quiz </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--latest blog-->
+  <section class="blog">
+    <div class="blog_heading">
+      <h3>
+        <span>our latest</span>
+        blogs
+      </h3>
+    </div>
+
+    <!--slider-->
+
+    <div class="container">
+      <div class="slider blog_multiple-items">
+        <!--first slider-->
+        <div class="blog_multiple-items_card">
+          <img class="blog_multiple-items_card-img-top" src="images/latest_blog_slide_img1.jpg" alt="Card image cap" />
+          <div class="date_wrapper">
+            <p>26 sep</p>
+          </div>
+          <div class="blog_multiple-items_card-body">
+            <p class="blog_multiple-items_card-text">Furniture Interior</p>
+            <h4 class="blog_multiple-items_card-hdng">
+              Lorem ipsum dolor sit amet, consectetur.
+            </h4>
+
+            <div class="l_more_wrapper">
+              <h5 class="l_more">
+                <a href="#"> learn more </a>
+              </h5>
+
+              <div class="blog_ico">
+                <a href="#">
+                  <i class="fal fa-greater-than"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--second slider-->
+        <div class="blog_multiple-items_card">
+          <img class="blog_multiple-items_card-img-top" src="images/latest_blog_slide_img2.jpg" alt="Card image cap" />
+
+          <div class="date_wrapper">
+            <p>16 sep</p>
+          </div>
+
+          <div class="blog_multiple-items_card-body">
+            <p class="blog_multiple-items_card-text">home furnishing</p>
+            <h4 class="blog_multiple-items_card-hdng">
+              Lorem ipsum dolor sit amet, consectetur.
+            </h4>
+
+            <div class="l_more_wrapper">
+              <h5 class="l_more">
+                <a href="#"> learn more </a>
+              </h5>
+
+              <div class="blog_ico">
+                <a href="#">
+                  <i class="fal fa-greater-than"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--third slider-->
+        <div class="blog_multiple-items_card">
+          <img class="blog_multiple-items_card-img-top" src="images/blog_slider_img3.jpg" alt="Card image cap" />
+
+          <div class="date_wrapper">
+            <p>21 sep</p>
+          </div>
+
+          <div class="blog_multiple-items_card-body">
+            <p class="blog_multiple-items_card-text">The Festival</p>
+            <h4 class="blog_multiple-items_card-hdng">
+              Lorem ipsum dolor sit amet, consectetur.
+            </h4>
+
+            <div class="l_more_wrapper">
+              <h5 class="l_more">
+                <a href="#"> learn more </a>
+              </h5>
+
+              <div class="blog_ico">
+                <a href="#">
+                  <i class="fal fa-greater-than"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--fourth slider-->
+        <div class="blog_multiple-items_card">
+          <img class="blog_multiple-items_card-img-top" src="images/latest_blog_slide_img2.jpg" alt="Card image cap" />
+
+          <div class="date_wrapper">
+            <p>28 sep</p>
+          </div>
+
+          <div class="blog_multiple-items_card-body">
+            <p class="blog_multiple-items_card-text">Furniture Interior</p>
+
+            <h4 class="blog_multiple-items_card-hdng">
+              Lorem ipsum dolor sit amet, consectetur.
+            </h4>
+
+            <div class="l_more_wrapper">
+              <h5 class="l_more">
+                <a href="#"> learn more </a>
+              </h5>
+
+              <div class="blog_ico">
+                <a href="#">
+                  <i class="fal fa-greater-than"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--project section-->
+
+  <section class="project_sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="left_txt">
+            <h3>
+              beautiful projects
+              <span>We have done.</span>
+            </h3>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="right_txt">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row d-flex justify-content-center pt-5">
+        <div id="image-comparison-slider">
+          <img src="images/project_comparision_img1.jpg" alt="before" />
+          <div class="img-wrapper">
+            <img src="images/project_comparision_img2.png" alt="after" />
+          </div>
+          <span class="label label-before"> &#8592; Before</span>
+          <span class="label label-after">After &#8594;</span>
+          <div class="handle">
+            <div class="handle-line"></div>
+            <div class="handle-circle">
+              <i class="fa-solid fa-caret-left"></i>
+              <i class="fa-solid fa-caret-right"></i>
+            </div>
+            <div class="handle-line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project_image-slider_btn">
+        <a href="#"> read the back story </a>
+      </div>
+    </div>
+  </section>
+
+  <!--contact sec-->
+
+  <section class="contact_us">
+    <h3>
+      sign up for newsletter!
+    </h3>
+    <div class="container">
+
+
+      <form action="#" method="post" class="contact_form">
+        <div class="row">
+          <div class="col-md-3 col-sm-4">
+            <input type="text" placeholder="First name">
+          </div>
+
+          <div class="col-md-3 col-sm-4">
+            <input type="text" placeholder="last name">
+          </div>
+
+          <div class="col-md-3 col-sm-4">
+            <input type="email" placeholder="email address">
+          </div>
+
+          <div class="col-md-3 col-sm-12">
+
+            <div class="contactUs_btn">
+              <input type="submit" value="subscribe now"></input>
+            </div>
+
+          </div>
+        </div>
+      </form>
+
+
+    </div>
+  </section>
+
+
+
+  <!--footer-->
+  <footer>
+
+    <div class="container">
+
+      <div class="row pt-5">
+
+        <div class="col-md-2">
+          <div class="foo_logo">
+            <img src="images/foo_logo.png" alt="">
+            <p class="foo_txt">
+              <a href="#">
+                follow us
+              </a>
+
+            </p>
+          </div>
+
+          <div class="foo_social_ico">
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="col-md-2 mt-5 col-sm-3">
+          <div class="foo_menu_list">
+            <ul>
+              <p class="pb-1">homacne</p>
+
+              <li><a href="#">
+                  Quizzes
+                </a></li>
+              <li><a href="#">
+                  Blog
+                </a></li>
+              <li><a href="#">
+                  refer a friend
+                </a></li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-md-2 mt-5 col-sm-3">
+          <div class="foo_menu_list">
+            <ul>
+              <p class="pb-1">about</p>
+
+              <li><a href="#">
+                  our brands
+                </a></li>
+              <li><a href="#">
+                  our designers
+                </a></li>
+              <li><a href="#">
+                  returns
+                </a></li>
+              <li><a href="#">
+                  shipping
+                </a></li>
+              <li><a href="#">
+                  our designers
+                </a></li>
+              <li><a href="#">
+                  our story
+                </a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 mt-5 col-sm-3">
+          <div class="foo_menu_list">
+            <ul>
+              <p class="pb-1">get in touch</p>
+
+              <li><a href="#">
+                  <i class="fas fa-map-marker-alt"></i> 10S059 Schoger Dr. Unit 23
+                  Naperville, IL 60564
+
+                </a></li>
+              <li><a href="#">
+                  <i class="fas fa-phone-volume"></i> 815.714.9489
+                </a></li>
+              <li><a href="#">
+                  <i class="fas fa-envelope"></i> sales@abc.com
+                </a></li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 mt-5 col-sm-2">
+          <div class="foo_menu_list">
+            <ul>
+              <p>on-site interior design</p>
+
+              <li><a href="#">
+                  Check Out Our Sister Company
+                </a></li>
+              <li><a href="#" style="font-weight:600; text-align: center;">
+                  lex designs
+                </a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container foo_line">
+    </div>
+
+    <p class="foo_copy_txt text-center">
+      &#169;Copyright2021 reserved Homance.
+    </p>
+  </footer>
+
+
+
+
+
+  <!--bootstrap cdn js-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/FontAwesome.js"></script>
+  <script src="js/flickity.js"></script>
+
+  <!-- <script src="js/aos.js"></script> -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

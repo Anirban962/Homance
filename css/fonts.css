@@ -1,0 +1,11 @@
+
+
+
+@font-face {
+    font-family: 'beautiful_heartregular';
+    src: url('../fonts/beautiful_heart.woff2') format('woff2'),
+         url('../fonts/beautiful_heart.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
